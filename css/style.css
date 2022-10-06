@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    background-color: rgb(135, 53, 211);
+    padding: 10px;
+    color: #f0f1f1;
+    text-align: center;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15x;
+    border-radius: 5px;
+}
+
+.lineInput {
+    display: grid; /*faz com que o input ocupe todo espaço do div*/
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid#ccc; /*modifica o tamanho, tipo de espessura e a cor do input*/
+    border-radius: 3px; /*insere canto na borda do input*/
+    outline: 0; /*retira a seleção da borda preta*/
+}
+
+button {
+    border: 0px; /*retira a borda do botão*/
+    padding: 10px; /*aumenta o tamanho ocupado pelo botão*/
+    outline: 0;
+    background-color: rgb(135, 53, 211);
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background-color: rgb(93, 35, 148);
+}
+
+.content {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse; /*deixa a tabela somente com uma borda*/
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th {
+    background-color: rgba(214, 214, 214, 0.432);
+}
+
+table td {
+    padding: 1px 5px;
+}
+
+table td img {
+    width: 22px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
